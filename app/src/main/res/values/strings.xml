@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProfileRegistrationDemo</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="dob">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+</resources>

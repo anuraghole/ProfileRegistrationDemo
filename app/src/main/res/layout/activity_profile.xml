@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/name"
+                android:padding="@dimen/padding"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/email"
+                android:padding="@dimen/padding"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/mobile"
+                android:padding="@dimen/padding"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvmobile"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/gender"
+                android:padding="@dimen/padding"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvgender"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="@string/dob"
+                android:padding="@dimen/padding"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tvdob"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:padding="@dimen/padding"
+               />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="150dp"
+            android:text="Update Profile"
+            android:textAllCaps="false"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"/>
+
+        <Button
+            android:id="@+id/bnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="150dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
